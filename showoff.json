@@ -1,0 +1,23 @@
+{
+  "name": "My Preso",
+  "sections": [
+    {
+      "section": "introduction"
+    },
+    {
+      "section": "old_constructs"
+    },
+    {
+      "section": "hiera"
+    },
+    {
+      "section": "exec"
+    },
+    {
+      "section": "facts"
+    },
+    {
+      "section": "other"
+    }
+  ]
+}
