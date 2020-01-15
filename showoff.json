@@ -1,0 +1,27 @@
+{
+  "name": "That's not my Puppet!",
+  "edit": "https://github.com/alexjfisher/cfgmgmtcamp2020/edit/master/",
+  "sections": [
+    {
+      "section": "introduction"
+    },
+    {
+      "section": "old_constructs"
+    },
+    {
+      "section": "hiera"
+    },
+    {
+      "section": "exec"
+    },
+    {
+      "section": "facts"
+    },
+    {
+      "section": "other"
+    },
+    {
+      "section": "thankyou"
+    }
+  ]
+}
