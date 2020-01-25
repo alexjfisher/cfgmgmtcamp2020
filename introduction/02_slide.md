@@ -6,6 +6,7 @@
 * Worst practices!
 
 <!SLIDE bullets incremental>
+# What am I talking about?
 
 * Old code, (with better and simple to achieve improvements)
 * Ugly code

@@ -14,6 +14,8 @@ TODO: Find or make up example
 <!SLIDE bullets incremental>
 # Solutions
 
+> [Friends Don't Let Friends Use Refreshonly](http://ffrank.github.io/misc/2015/05/26/friends-don't-let-friends-use-refreshonly/) - Felix Frank
+
 * Prefer `creates` over `refreshonly`
 * Write a single script deployed with puppet
 * Have a single `Exec` execute it

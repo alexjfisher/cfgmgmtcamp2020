@@ -15,7 +15,8 @@
 
 * How many of your own modules do you have?
 * I have < 5 in my Puppetfile
-* If it's something you could release, it's a module.  Otherwise maybe it's just another profile class.
+* Is it something you could release, (contains no organisation specific logic and is useful to others), it's a module.
+* Otherwise maybe it's just another profile class?
 * Use the Puppet Forge!
-* If something doesn't quite meet your requrements, loosen your requirements or contribute enhancements.
+* If something doesn't quite meet your requrements, 're-evaluate' your requirements or contribute enhancements.
 * Please, please don't write your own Apache, PostgreSQL module etc.

@@ -45,6 +45,7 @@
 
 * **Not** things that aren't common!
 * **Not** things that will never change.
+* Do you *ever* plan on sending mail on something other than port 25?
 * Your profiles are also your data. Don't be afraid to hardcode values.
 * Make use of a hierarchy, but don't over do it either.
 
@@ -81,3 +82,5 @@
         path: "environments/%{::tier}.yaml"
       - name: 'Default data'
         path: "common.yaml"
+
+* yeah, probably.  A fleshed out config with just a few parameters is already quite long.

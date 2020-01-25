@@ -30,6 +30,8 @@
 
 ## Problem?
 
+  * $attrs isn't allowed to duplicate/override the default keys
+
 ## Solution: Merge the hashes (using modern syntax!)
     @@@ Puppet
     $defaults = {

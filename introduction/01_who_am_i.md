@@ -1,4 +1,4 @@
-<!SLIDE center bullets>
+<!SLIDE bullets>
 # Who am I?
 
 * Consultant working with Puppet for last 6 years

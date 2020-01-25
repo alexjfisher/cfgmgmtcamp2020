@@ -15,6 +15,11 @@
       end
     end
 
+* Invokes shell commands with backticks
+* Returns literal strings "true" and "false"
+* Performs something trivial to do with Ruby
+* If you think "you don't know Ruby", try googling the answer!
+
 ## Better (although was that ever really a great test?)
 
     @@@ Ruby
@@ -41,6 +46,12 @@
       end
     end
 
+* This time uses `system`, which returns `true` or `false` (or `nil`)
+* In this example, already up to 3 times!
+* Spawns yet more processes by piping to grep
+* This can get SLOW, especially as you starting adding more roles
+
+<!SLIDE >
 ## Better
 
     @@@ Ruby
@@ -55,9 +66,14 @@
       end
     end
 
+* Custom facts can reference other facts
+* Ruby cases aren't difficult to understand
+* You can use regexes with them
+
 <!SLIDE bullets incremental>
 # Writing better facts
 
 * Ruby isn't *that* hard
+* Do you know how to google?
 * Use `Facter::Core::Execution.execute` not `system` or backticks
 * You can also use 'external facts' if you really don't want to touch ruby

@@ -2,6 +2,7 @@
 # The Super Hash
 
 * What is a super hash?
+* My term for an overly broad hash of data used across otherwise unrelated profiles
 * Why do I see it so often?
 
 <!SLIDE >
@@ -32,4 +33,6 @@
 * Index into that hash `$nexus_url = $oracle['database']['nexus']['url']`
 * Puppet explodes because something didn't exist for your host for some reason
 * Some more specific yaml overrode `$oracle['database']`
+* The `dig` function can help you, but still best to avoid creating monsterous multi-purpose hashes!
+* It could be worse, (I suppose).
 * `hiera_hash('data')` ??!
